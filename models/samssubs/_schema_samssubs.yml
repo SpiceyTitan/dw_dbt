@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: sams_Dim_Order
+    description: "order Dimension"
+  - name: sams_dim_Customer
+    description: "Customer Dimension"
+  - name: sams_Dim_Date
+    description: " Date Dimension"
+  - name: sams_Dim_Store
+    description: "store Dimension"
+  - name: sams_dim_DailyInteractions
+    description: "Daily interactions Fact table"
+  - name: sams_Dim_Employee
+    description: "employee dimension"
+  - name: sams_dim_event
+    description: "event Dimension"
+  - name: sams_dim_Product
+    description: " Product Dimension"
+  - name: sams_dim_webpage
+    description: "web page Dimension"
+  - name: sams_Dim_OrderLineFacts
+    description: "Order line facts table"
+  - name: sams_dim_TrafficSource
+    description: "Traffic source dimension"

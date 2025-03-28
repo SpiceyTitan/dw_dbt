@@ -1,0 +1,20 @@
+version: 2
+
+
+sources:
+  - name: sams_landing
+    database: claywillden
+    schema: samssub_source_sams_subs
+    tables:
+      - name: customer
+      - name: employee
+      - name: '"ORDER"'
+      - name: product
+      - name: store
+      - name: sandwich
+      - name: orderdetails
+  - name: web_landing
+    database: claywillden
+    schema: samssub_source
+    tables:
+      - name: web_traffic_events
