@@ -1,4 +1,3 @@
-
 {{ config(
 materialized = 'table',
 schema = 'dw_sams'
@@ -20,7 +19,3 @@ c.month_name,
 c.year_number
 from cte_date c
 JOIN {{ source('web_landing', 'web_traffic_events') }} w ON CAST(w.event_timestamp AS DATE) = c.Date_day
-
-
-
-

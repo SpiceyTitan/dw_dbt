@@ -3,7 +3,7 @@ version: 2
 
 sources:
   - name: sams_landing
-    database: claywillden
+    database: CLAYWILLDEN
     schema: samssub_source_sams_subs
     tables:
       - name: customer
@@ -14,7 +14,7 @@ sources:
       - name: sandwich
       - name: orderdetails
   - name: web_landing
-    database: claywillden
+    database: CLAYWILLDEN
     schema: samssub_source
     tables:
       - name: web_traffic_events
