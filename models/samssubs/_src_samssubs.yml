@@ -4,7 +4,7 @@ version: 2
 sources:
   - name: sams_landing
     database: CLAYWILLDEN
-    schema: samssub_source_sams_subs
+    schema: samssubs_source_sams_subs
     tables:
       - name: customer
       - name: employee
@@ -15,6 +15,6 @@ sources:
       - name: orderdetails
   - name: web_landing
     database: CLAYWILLDEN
-    schema: samssub_source
+    schema: samssubs_source
     tables:
       - name: web_traffic_events
